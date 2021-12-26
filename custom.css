@@ -1,0 +1,103 @@
+/*
+우측 하단 사진정보를 없애려면 바로 아래 주석 해제
+*/
+ 
+#GPHOTO_INFO {
+	display:none;
+}
+ 
+/*
+배경을 검게하려면 바로 아래 주석 해제
+*/
+ 
+#GPHOTO_BACK {		
+	display:none;
+}
+ 
+/*
+시계를 잘보이게 하려면 바로 아래 주석 해제
+*/
+ 
+.clock {			
+  padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+ 
+ 
+ 
+ 
+body{
+	color: #000;
+}
+ 
+header{
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+ 
+.dimmed{
+ color: #000;
+}
+ 
+.normal {
+ color: #000;
+}
+ 
+.bright {
+ color: #000;
+}
+ 
+ 
+.module.clock{
+	background-color:rgba(255,255,255,0.4);
+	width: wrap_contents;
+	height: wrap_contents;
+	border-radius : 8px;
+	padding:8px;
+}
+ 
+.module.calendar{
+	background-color:rgba(255,255,255,0.4);
+	width: wrap_contents;
+	height: wrap_contents;
+	border-radius : 8px;
+	padding:8px;
+}
+ 
+.module.MMM-AirQuality{
+	background-color:rgba(255,255,255,0.4);
+	border-radius : 8px;
+	padding:8px;
+}
+ 
+.module.currentweather{
+	background-color:rgba(255,255,255,0.4);
+	border-radius : 8px;
+	padding:8px;
+}
+ 
+.module.weatherforecast{
+	background-color:rgba(255,255,255,0.4);
+	border-radius : 8px;
+	padding:8px;
+}
+ 
+.module.newsfeed{
+	background-color:rgba(255,255,255,0.4);
+	border-radius : 8px;
+	padding:8px;
+}
+ 
+.module.compliments{
+	background-color:rgba(255,255,255,0.4);
+	border-radius : 8px;
+	padding:8px;
+	font-size: 30px;
+}
+ 
+.module.MMM-GooglePhotos{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	
+}
